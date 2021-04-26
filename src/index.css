@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  transition: all 1s;
+}
+
+#quote-box {
+  border: 0.5px solid gainsboro;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 200px;
+  min-height: 300px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+#text {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  transition: all 1s;
+}
+
+#author {
+  text-align: end;
+  margin-top: 1.5rem;
+  margin-right: 20px;
+  font-size: 1.5rem;
+  transition: all 1s;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+#tweet-quote {
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#new-quote {
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
